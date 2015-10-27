@@ -1,10 +1,6 @@
 #include <cstdio>
 #include <cmath>
 #include <vector>
-double sqr(double x)
-{
-    return x*x;
-}
 
 double curvature(const std::vector<double>& p1,const std::vector<double>& p2,const std::vector<double>& p3)
 { 
